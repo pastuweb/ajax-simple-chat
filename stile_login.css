@@ -1,0 +1,142 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #FFF;
+	color: #000;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#centrato{
+	width:940px;
+	margin:auto;
+	text-align:left;
+}
+
+#corpo{
+	overflow:hidden;
+	width:940px;
+	background: #FFF;
+	color:#000;
+}
+
+#colonna-2{
+	float: left;
+	width: 848px;
+}
+
+#intestazione{
+	background: #EBEBEB;
+	color:#000;
+	font-size:170%;
+	text-align:center;
+	font-weight: bold;
+	border: 1px solid #999;
+	margin-top: 10px;
+	position:relative;
+}
+
+#pie-di-pagina {
+	background: #EBEBEB;
+	color: #000;
+	font-style:italic;
+	text-align:left;
+	font-size:75%;
+	border: 1px solid #999;
+	margin-bottom: 10px;
+}
+
+.no_decoration {
+text-decoration:none;
+}
+.no_bordo {
+border:0px;
+}
+
+#intestazione,#colonna-2,#pie-di-pagina{
+	padding:0.5em 0;
+}
+
+div p{
+	margin:0;
+	padding:0.5em 1em;
+}
+
+#colonna-2  p.Contenuto{
+	background: #EBEBEB;
+	border: 1px solid #999;
+	color: #000;
+	padding: 1em;
+	margin-left:2px;
+	font-size:80%;
+}
+
+#colonna-2  p.Avvisi{
+	background: #FFC0CE;
+	border: 1px solid #999;
+	color: #000;
+	padding: 1em;
+	margin-left: 2px;
+	font-size:130%;
+	text-align:center;
+	width: 804px;
+}
+
+#intestazione p.pensiero{
+	font-size:50%;
+	text-align:center;
+	margin:0;
+	padding:0em 0em;
+}
+#intestazione p.intesta{
+	font-size:100%;
+	text-align:center;
+	margin-top:-20px;
+	padding:0em 0em;
+}
+
+#pie-di-pagina div.float { 
+	text-align:center;
+	width:850px;
+	height:40px;
+}
+.floatW3C {
+float:right;
+text-align:right;
+height:0px;
+margin-top:-25px;
+}
+
+a.titolo {
+text-decoration:none;
+color:#000000;
+}
+
+.display_on{
+}
+
+.display_off{
+	display:none;
+}
+
+img{
+	border:0px;
+}
+
+.pulsantiSocialVert{
+	background: #FFFAC4;
+	border: 4px solid #999;
+	padding: 1em;
+	margin:auto;
+	width:140px;
+	text-align:center;
+	margin-left:20px;
+}
+
+.pulsantiSocialOrizz{
+	background: #FFFAC4;
+	border: 4px solid #999;
+	padding: 1em;
+	margin:auto;
+	width:300px;
+	text-align:center;
+}
